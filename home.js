@@ -1,5 +1,13 @@
 //ボタンアクション
 document.getElementsByTagName('button')[0].addEventListener('click', () => {
+  document.location.href = "about.html";
+});
+
+document.getElementsByTagName('button')[1].addEventListener('click', () => {
+  document.location.href = "patchnote.html";
+});
+
+document.getElementsByTagName('button')[2].addEventListener('click', () => {
   if (myselect.value == 0) {
     document.location.href = "1v1.html";
   } else if (myselect.value == 1) {
